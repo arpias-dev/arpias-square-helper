@@ -1,4 +1,4 @@
-# Square Login
+# Arpias Square Helper
 
 CLI tool to capture Square session cookies and upload them to an Arpias server.
 
@@ -7,7 +7,7 @@ CLI tool to capture Square session cookies and upload them to an Arpias server.
 Run directly with uvx (no installation needed):
 
 ```bash
-uvx --from git+https://github.com/arpias-dev/square-login.git square-login \
+uvx --from git+https://github.com/arpias-dev/arpias-square-helper.git arpias-square-helper \
     --server https://your-arpias-server.com \
     --token YOUR_UPLOAD_TOKEN
 ```
@@ -28,4 +28,4 @@ uvx --from git+https://github.com/arpias-dev/square-login.git square-login \
 ## Requirements
 
 - Python 3.10+
-- Playwright browsers (installed automatically on first run)
+- Chrome browser (used via pydoll for automation)
